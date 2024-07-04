@@ -35,7 +35,7 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       {links}
-    </ul>
+    </ul> 
   </div>
   <div className="navbar-end">
     <a className="border border-[#020043] px-2 py-1 md:px-6 md:py-2 text-[12px] md:text-[16px] font-bold rounded-xl flex justify-center items-center gap-2">Appointment <img src="/Arrow.svg" alt="" /></a>
