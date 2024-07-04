@@ -2,7 +2,7 @@
 
 const Testimonial = () => {
   return (
-    <div className="p-5 md:p-10 lg:p-0 mt-20 md:mt-[160px] text-[#020043]">
+    <div className="p-5 md:p-10 lg:p-0 mt-5 md:mt-10 lg:mt-[160px] text-[#020043]">
       <button className="font-semibold text-[12px] md:text-[16px] border border-[#020043] px-2 py-1 md:px-5 md:py-2 rounded-3xl">
         Testimonial
       </button>
@@ -10,7 +10,7 @@ const Testimonial = () => {
         What they say about us
       </h1>
       <div className="mt-[30px] grid grid-cols-1 md:grid-cols-3 gap-[44px]">
-        <div>
+        <div className="bg-white shadow-sm p-5 md:p-[20px] rounded-3xl">
           <h2 className="text-[14px] md:text-[19px] font-bold">
             Expertise and Compassion <br />
             Combined
@@ -33,7 +33,7 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="bg-white shadow-sm p-5 md:p-[20px] rounded-3xl">
           <h2 className="text-[14px] md:text-[19px] font-bold">
             Life-Saving Care, Life-Changing Experience
           </h2>
@@ -55,7 +55,7 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="bg-white shadow-sm p-5 md:p-[20px] rounded-3xl">
           <h2 className="text-[14px] md:text-[19px] font-bold">
             A Partner in Health and
             <br />

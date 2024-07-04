@@ -1,6 +1,6 @@
 const WhoWeAre = () => {
   return (
-    <div className="p-5 md:p-10 lg:p-0 mt-5 md:mt-[160px] text-[#020043]">
+    <div id="about" className="p-5 md:p-10 lg:p-0 mt-5 md:mt-10 lg:mt-[160px] text-[#020043]">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-[123px]">
         <div>
         <button className="font-semibold text-[12px] md:text-[16px] border border-[#020043] px-2 py-1 md:px-5 md:py-2 rounded-3xl">

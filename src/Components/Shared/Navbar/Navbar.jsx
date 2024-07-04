@@ -1,13 +1,13 @@
 
 const Navbar = () => {
     const links = <>
-    <li className="text-[#020043]"><a>Home</a></li>
-    <li className="text-[#020043]"><a>Services</a></li>
+    <li className="text-[#020043]"><a href="/">Home</a></li>
+    <li className="text-[#020043]"><a href="#services">Services</a></li>
     <li className="text-[#020043]"><a>Blog</a></li>
-    <li className="text-[#020043]"><a>About us</a></li>
+    <li className="text-[#020043]"><a href="#about">About us</a></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="max-w-6xl mx-auto navbar">
   <div className="navbar-start ">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,7 +30,7 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl"><img className="h-4 md:h-[32px] md:w-[124px]" src="/logo dark.png" alt="" /></a>
+    <a href="/" className="btn btn-ghost text-xl"><img className="h-4 md:h-[32px] md:w-[124px]" src="/logo dark.png" alt="" /></a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

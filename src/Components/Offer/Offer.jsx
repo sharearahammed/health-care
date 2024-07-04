@@ -1,6 +1,6 @@
 const Offer = () => {
   return (
-    <div className="p-5 md:p-10 lg:p-0 mt-5 md:mt-[160px] text-[#020043] flex justify-center items-center">
+    <div className="p-5 md:p-10 lg:p-0 mt-5 md:mt-10 lg:mt-[160px] text-[#020043] flex justify-center items-center">
       <div className="relative">
         <img
           className="rounded-2xl md:rounded-[48px]"
